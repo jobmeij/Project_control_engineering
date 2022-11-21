@@ -1,0 +1,25 @@
+controller(1) 23Hz
+Gain: 2
+Notch: zeros: 58.1, damp 0.02, poles: 80,damp 5
+Integrator: 5
+PD: P:1, D: 0.025
+Lead: Zero: 6.667, pole: 90
+LP1: 550
+
+meten met en zonder FF, scanning setpoint
+ook meten van FF output, extra toevoegen aan logging
+
+
+Controller(2) 10 Hz
+Gain: 5
+Notch: zero 59Hz, damp 0.03, poles: 59, damp 0.5
+Pd: p: 0.16, D: 0.005
+LP2: poles: 200, damp:0.7
+Meten met FF, zonder FF notch, scanning setpoint
+
+
+Optioneel
+- verbeteren van beste controller die gebruikt is in meting van dinsdag, PSD meten en controller daar op tunen
+- Setpoint verder tunen, (jerk naar beneden?)
+
+

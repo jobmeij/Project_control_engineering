@@ -1,0 +1,7 @@
+Ref3 - Third degree reference generator
+
+Compile with "mex ref3.c" before using Ref3.
+
+See ref3_example.mdl for an example of how to use ref3.
+
+Mail comments to M.J.G.v.d.Molengraft@tue.nl or G.Witvoet@tue.nl
